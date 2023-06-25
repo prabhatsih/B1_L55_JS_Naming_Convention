@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch 1 Lecture 55 JS_Naming_Convention</title>
+    <style>
+
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    
+
+    <script>
+        //Naming Convention in JS
+        //CamelCase for Variable & Function Method.
+
+        var firstName; //Declation of variable & I write variable name in camelCase.
+        var frndName; 
+        firstName = 10; //Initialitation of value.
+        frndName = 20;
+
+        console.log(firstName + frndName);
+
+        var frndName2;
+        frndName2 = 50;
+        console.log(frndName2);
+
+        const pi = 22/7;
+        console.log(pi);
+
+        //1. function defination 
+        function myFunctionA(name){ //I wirte function name in camelCase. And name is formal argument.
+            //function body
+            console.log('Hello '+name); //Here I've use + as a concetanation operator.
+        }
+
+        //2. function calling/Invoking
+        myFunctionA('Prabhat');//Actual argument.
+
+        //1. function defination 
+        function myFunctionB(msg){ //I wirte function name in camelCase. And msg is formal argument.
+            //function body
+            console.log('Hey, Nandan! '+ msg); //Here I've use + as a concetanation operator.
+            
+            myFunctionC('15','25'); //I ivoke myFunctionC with myFunctionB body & typed number as a string Data Type.
+
+        }
+
+        //2. function calling/Invoking
+        myFunctionB('How are you?');//Actual argument.
+
+        //1. Function defination
+        function myFunctionC(x,y){ //x & y is a formal argument.
+            //function body
+            console.log(x+y);
+        }
+
+    </script>
+</body>
+</html>
